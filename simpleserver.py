@@ -1,5 +1,6 @@
 from bottle import route, run, template
 
+
 @route('/')
 @route('/<name>')
 def index(name='World'):
